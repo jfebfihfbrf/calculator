@@ -1,23 +1,4 @@
-first = input("Write your number : ")
-second =input("write your number :")
-operators =input("write operators")
+def print_sum(first=4 ,second =5):
+    print( first + second)
 
-first =int(first)
-second =int(second)
-if operators =="+":
-    print(first + second )
-
-
-elif operators =="-":
-    print(first - second )
-
-elif operators =="*":
-    print(first * second )
-
-elif operators =="/":
-    print(first / second )
-
-elif operators =="%":
-    print(first % second )
-else:
-    print("Invalid operation ")
+print_sum (4)
